@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    
+  </head>
+  <body>
+    <div class="carousel slide bg-dark" data-ride="carousel" id="slider1">
+		<ol class="carousel-indicators">
+			<li class="active" data-target="#slider1" data-slide-to="0"></li>
+			<li class="" data-target="#slider1" data-slide-to="1"></li>
+			<li class="" data-target="#slider1" data-slide-to="2"></li>
+		</ol>
+		<div class="carousel-inner" role="listbox">
+			<div class="carousel-item active" alt="First slide">
+			<img src="facebook.png" class="d-block"/>
+			</div>
+			
+			<div class="carousel-item" alt="Second slide">
+			<img src="slide1.jpg" class="d-block"/>
+			</div>
+			
+			<div class="carousel-item" alt="Third slide">
+			<img src="slide2.jpg" class="d-block"/>
+			</div>
+		</div>
+		<a href="#slider1" data-slide="prev" class="carousel-control-prev"><span class="carousel-control-prev-icon"></span></a>
+		<a href="#slider1" data-slide="next" class="carousel-control-next"><span class="carousel-control-next-icon"></span></a>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  <script>
+	 $('.carousel').carousel({
+	 
+		interval:1000,
+		
+		wrap:true,
+		keyboard:true
+		
+		
+	 });
+    </script>
+  </body>
+</html>
